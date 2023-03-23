@@ -1,0 +1,264 @@
+
+h1.titulo_pagina{
+    color: black;
+    text-align: center;
+    color: rgb(0, 0, 0);
+   font-size: 60px;
+}
+
+h1{
+    color: aliceblue;
+}
+
+section.footer{
+    margin-bottom: 100px;
+}
+
+.ejemplos{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 2px solid white;
+    padding: 20px;
+    background: rgb(179, 139, 139);
+}
+.metodo-codigo{
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid #DCDCDC;
+    background-color: #f0f0f0;
+    padding: 20px ;
+    
+}
+header[class$="Azul"],footer[class$="Azul"]{
+    background-color: blue;
+    color: white;
+}
+header[class$="Rojo"],footer[class$="Rojo"]{
+    background-color: #9d1918;
+    color: white;
+}
+header[class$="Verde"],footer[class$="Verde"],div[class$="Verde"]{
+    background-color: rgb(20, 124, 10);
+    color: white;
+}
+header[class$="Amarillo"],footer[class$="Amarillo"]{
+    background-color:yellow;
+    color: white;
+}
+header[class$="Negro"],footer[class$="Negro"]{
+    background-color: black;
+    color: white;
+}
+div[class$="Morado"]{
+    background-color:blueviolet;
+    color: white;
+}
+header[class*="header-"]{
+    text-align: center;
+    padding-top: 10px;
+    min-height: 100px;
+}
+header[class*="footer-"],header[class*="navigation-"]{
+    text-align: center;
+    padding-top: 10px;
+    min-height: 100px;
+}
+
+header[class*="aside-"]{
+    text-align: center;
+    padding-top: 10px;
+    min-height: 200px;
+    width: 100px;
+}
+header[class*="main-"]{
+    text-align: center;
+    padding-top: 10px;
+    min-height: 400px;
+    
+}
+
+div[class*="section-"]{
+    text-align: center;
+    padding-top: 10px;
+    margin: 30px;
+    height: 250px;  
+}
+div[class*="article-"]{
+    text-align: center;
+    padding-top: 10px;
+    margin: 30px;
+    height: 100px; 
+}
+.estructura{
+
+    background-color: gray;
+    top: 60px;
+    margin: 20px;
+    width: auto;
+    height: 2300px;
+    padding-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.header_contenedor{
+   
+   width: auto;
+  padding-top: 20px;
+  margin: 50px;
+  top: 7%;
+   background-color: rgb(0, 0, 0);
+   height: 400px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.navigation_contenedor{
+    background-color: purple;
+    width: auto;
+    bottom: -30px;
+    margin: 60px;
+    padding-top: 50px;
+    height: 250px;
+    padding-bottom: -20px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.body_contenedor{
+    margin: 50px;
+    width: auto;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 7%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.sidebar_contenedor{
+    background-color: rgb(0, 204, 255);
+    width: 300px;
+   
+    height: 1000px;
+
+margin: 50px;
+color: white;
+text-align: center;
+font-size: 40px;
+
+}
+
+.main_contenedor{
+    
+    background-color: yellow;
+    margin: 70px;
+   width: 1000px;
+   
+    height: 1000px;
+   display: inline-block;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 40px;
+
+}
+
+.section_contenedor{
+    background-color: rgb(0, 89, 255);
+    margin: 70px;
+    width: 800px;
+   
+    height: 400px;
+    justify-content: center;
+    left: 7%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.article_contenedor{
+
+    background-color: rgb(5, 189, 5);
+    margin: 50px;
+   width: 700px;
+  
+    height: 100px;
+    padding-top: -20px;
+    padding-bottom: -20px;
+   
+    left: 7%;
+   
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+.footer_contenedor{
+    width: auto;
+  padding-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+ 
+  color: white;
+  text-align: center;
+  font-size: 40px;
+     background-color: rgb(207, 152, 0);
+     height: 400px;
+      
+}
+
+@media  (max-width:768px){
+
+    .body_contenedor{
+
+width: auto;
+
+    }
+
+    .estructura{
+        margin: 3px;
+    }
+
+
+    .main_contenedor{
+
+        width: 230px;
+      margin-left: 15px;
+      margin-right: 3px;
+    }
+
+    .section_contenedor{
+margin: 5px;
+width: 150px;
+       
+    }
+
+    .article_contenedor{
+        margin-left: 17px;
+        width: 100px;
+        font-size: 27px;
+    }
+
+    .sidebar_contenedor{
+        margin-right: 15px;
+        width: auto;
+        font-size: 32px;
+        margin-left: 20px;
+    }
+
+}
+

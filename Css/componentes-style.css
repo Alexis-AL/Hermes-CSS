@@ -1,0 +1,399 @@
+:root{
+    --azulPrim: #1792a4;
+    --azulSec: #44b4c4;
+    --azulTer: #80c9c6;
+    --rojoPrim:#69140f;
+    --rojoSec: #a31915;
+    --rojoTer: #c21d17;
+    --verdePrim: #389753;
+    --verdeSec:#91c470;
+    --verdeTer: #bed57e;
+    --naranjaPrim: #af5700;
+    --naranjaSec:#c06500;
+    --naranjaTer: #d27300;
+    --moradoPrim: #4b0081;
+    --moradoSec: #650099;
+    --moradoTer: #7f00b2;
+    --azulmar:rgb(5, 5, 216);
+    --amarilloPrim:rgb(197, 197, 5);
+    --rosaSec:rgb(230, 154, 167);
+    --cafeSec: #804000;
+    --rojo:red;
+
+}
+
+
+
+
+
+/*----------------------------------BOTONES------------------------------------*/
+
+
+
+section div [class*=" btn-"]{
+	padding: 8px 12px;
+	border-radius: 4px; 
+    margin-bottom: 2px;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+section div button {
+    border-radius: 4px; 
+}
+
+section div [class^="btn-"]:hover,section div [class*=" btn-"]:hover{
+	cursor: pointer;
+}
+
+.btn-blanco{
+	color: #000;
+	border: 1px solid #7e7d7d;
+	background-color: #f0f0f0;
+	box-shadow: 0 5px #7e7d7d;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.btn-blanco:active{
+	color: #000;
+	background: #5c5c5c;
+	transition: all 150ms ease-in-out;
+}
+.btn-negro{
+	color: #fff;
+	border: 1px solid rgba(42, 54, 59, 0.7);
+	background-color: rgba(42, 54, 59, 0.7);
+	box-shadow: 0 5px #000;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.btn-negro:active{
+	color: #000;
+	background: rgba(7, 9, 10, 0.2);
+	transition: all 150ms ease-in-out;
+}
+.btn-rojo{
+	color: #FFF;
+	border: 1px solid var(--rojoSec);
+	background-color: var(--rojoTer);
+	box-shadow: 0 5px var(--rojoSec);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.btn-rojo:active{
+	color: var(--rojoSec);
+	background: var(--rojoPrim);
+	transition: all 150ms ease-in-out;
+}
+.btn-azul{
+	color: #FFF;
+	border: 1px solid var(--azulSec);
+	background-color: var(--azulTer);
+	box-shadow: 0 5px var(--azulSec);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.btn-azul:active{
+	color: var(--azulSec);
+	background: var(--azulPrim);
+	transition: all 150ms ease-in-out;
+}
+.btn-verde{
+	color: #FFF;
+	border: 1px solid var(--verdeSec);
+	background-color: var(--verdeTer);
+	box-shadow: 0 5px var(--verdeSec);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.btn-verde:active{
+	color: var(--verdeSec);
+	background: var(--verdePrim);
+	transition: all 150ms ease-in-out;
+}
+
+.btn-naranja{
+	color: #FFF;
+	border: 1px solid var(--naranjaSec);
+	background-color: var(--naranjaTer);
+	box-shadow: 0 5px var(--naranjaSec);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.btn-naranja:active{
+	color: var(--naranjaSec);
+	background:var(--naranjaPrim);
+	transition: all 150ms ease-in-out; 
+}
+
+.btn-morado{
+	color: #FFF;
+	border: 1px solid var(--moradoSec);
+	background-color: var(--moradoTer);
+	box-shadow: 0 5px var(--moradoSec);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.btn-morado:active{
+	color: var(--moradoSec);
+	background: var(--moradoPrim);
+	transition: all 150ms ease-in-out; 
+}
+
+
+.codigo{
+    width: auto;
+}
+
+/*----------------------------------XXXXXX--------------------------------------*/
+
+h1.titulo_pagina{
+    text-align: center;
+    color: rgb(0, 0, 0);
+   font-size: 60px;
+}
+
+main section div{
+    background-color: rgb(100, 100, 100);
+    position: relative;
+    width: auto;
+    height: auto;
+    border-radius: 15px;
+    border-style: black 3px double;
+   margin: 40px;
+    justify-content: center;
+
+}
+
+.subtitulo{
+    font-size: xx-large;
+ 
+    color: #9d1918;
+    border: #9d1918 ;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    border: 5px ridge;
+}
+
+p{
+    font-size: xx-large;
+    margin: 10px;
+
+   text-shadow: 5px 5px 7px black;
+    text-align: center;
+    padding: 7px;
+    justify-content: center;
+  
+}
+
+.fuente{
+    display: inline-flex;
+    width: auto;
+    margin: 30px;
+    text-align: center;
+    color: rgb(221, 221, 221);
+}
+
+
+.Bordes{
+    display: inline-flex;
+    margin: 30px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    color: rgb(255, 0, 0);
+    font-size: large;
+    background-color: black;
+}
+
+.dotted{
+  
+    border: 10px dotted;
+}
+
+.dashed{
+    border: 10px  dashed;
+}
+
+.solid{
+    border: 10px solid;
+}
+
+.double{
+    border: 10px double;
+}
+
+.groove{
+    border: 10px groove;
+}
+
+.ridge{
+    border: 10px ridge;
+}
+
+.inset{
+    border: 10px inset;
+}
+
+.outset{
+    border: 10px outset;
+}
+
+
+.borde_arriba{
+    border-top:  10px solid;
+   
+} 
+
+.borde_abajo{
+    border-bottom:  10px solid;
+   
+}
+
+
+.borde_izquierda{
+    border-left:  10px solid;
+   
+}
+
+.borde_derecha{
+    border-right:  10px solid;
+
+}
+
+.borde_completo{
+    border:  10px solid;
+    color: rgb(255, 0, 0);
+}
+
+.color_fuentes{
+    display: inline-flex;
+    width: auto;
+    margin: 30px;
+    text-align: center;
+   
+ 
+}
+
+#Rojo{
+    color: var(--rojo);
+}
+
+#Azul{
+    color: var(--azulmar);
+}
+
+#Amarillo{
+    color: var(--amarilloPrim);
+}
+
+#Naranja{
+    color:var(--naranjaSec);
+}
+
+#Verde{
+    color: var(--verdePrim);
+}
+
+#Rosa{
+    color: var(--rosaSec);
+}
+
+#Cafe{
+    color: var(--cafeSec);
+}
+
+.Peso_Normal{
+    font-weight: normal;
+}
+
+.Peso_Bold{
+    font-weight: bold;
+}
+
+.Normal{
+    font-style: normal;
+}
+
+.Italic{
+    font-style: italic;
+}
+
+.Oblique{
+    font-style: oblique;
+}
+
+.xxSmall{
+    font-size: xx-small;
+}
+
+.xSmall{
+    font-size: x-small;
+}
+
+.Small{
+    font-size: small;
+}
+
+.Medium{
+    font-size: medium;
+}
+
+.Large{
+    font-size: large;
+}
+.xLarge{
+    font-size: x-large;
+}
+
+.xxLarge{
+    font-size: xx-large;
+}
+
+
+
+.arial{
+    font-family: arial;
+   
+}
+
+.courier{
+    font-family: Courier;
+   
+}
+
+.georgia{
+    font-family: Georgia;
+  
+}
+
+.times_new{
+    font-family: 'Times New Roman';
+   
+}
+
+/*----------------------ICONOS---------------------------*/
+
+.iconos{
+    display: inline-flex;
+    margin: 30px;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    justify-content: center;
+}
+
+#icono_fa{
+color: white;
+}
+
+
+

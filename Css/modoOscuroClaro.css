@@ -1,0 +1,219 @@
+/*ESTILOS PARA EL MODO OSCURO*/ 
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+ /*NOTA: para que se haga el cambio al presionar el boton de modo oscuro se deben hacer los estilos comenzado con la clase .dark-mode luego la clase o id del
+ elemento a modificar*/
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.container-btn-mode{
+    position: absolute;
+    top:10px;
+    right: 20%;
+    cursor: pointer;
+    z-index: 3;
+    font-size:5;
+  }
+  .btn-mode{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    border:2px solid rgb(0, 0, 0);
+    transition: background-color .5s;
+  }
+ 
+  .btn-mode i {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    line-height: 30px;
+  }
+
+  .btn-mode.sun{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 1px solid transparent;
+  }
+
+  .btn-mode.moon{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  .active{
+    background-color:rgb(0, 0, 0);
+    color:#ffcd5c !important;
+  }
+
+  .dark-mode{
+    background-color: #ffffff;
+    transition:background-color .5s;
+  }
+
+  .dark-mode body{                  /*Se modifica el body a color oscuro*/
+    background-color: #1e1e1e;
+    transition:background-color .5s;
+  
+  }
+
+  .dark-mode .menu li a{      /*Se modifican las letras del menu a color claro*/
+      color: white;
+  }
+
+  .dark-mode .nav_header li a.descargar_framework:hover{  /*Se modifica al letra del descargar hermes a color verde al ponerle el cursor*/
+   color: rgb(47, 255, 99);
+    
+  }
+
+ .dark-mode .menu li:hover{       /*Se modifica el fondo del menu a color gris claro al ponerle el cursor*/
+  
+    background-color: rgb(104, 104, 104);
+   
+  
+
+  }
+
+  .dark-mode #id-moon{
+      background-color: rgb(0, 0, 0);
+  }
+
+  .dark-mode #id-sun{
+    background-color: rgb(255, 255, 255);
+  }
+
+  .dark-mode header.nav_header{
+    background-color: #1e1e1e;
+    transition:background-color .5s;
+  }
+
+  .dark-mode header.nav_header li a#descargar_framework{
+    color: white;
+  }
+
+   .dark-mode h2.subtitulo_pagina{
+    color:rgb(255, 255, 255);
+  }
+
+  .dark-mode h1.titulo_pagina{
+      color: white;
+  }
+
+  .dark-mode main section div{
+      color: white;
+  }
+
+  .dark-mode main section div{
+      background-color: white;
+  }
+
+  .dark-mode .codigo, .dark-mode .metodo-codigo{
+    background-color: rgba(199, 199, 199, 0.685);
+  }
+
+  .dark-mode .codigo label, .dark-mode .texto-etiquetas{
+    color: black;
+  }
+
+.dark-mode .section-color-Verde{
+  background-color: rgb(20, 124, 10);
+ 
+}
+
+.dark-mode .article-color-Morado{
+  background-color:blueviolet;
+  color: white;
+}
+
+.dark-mode .fuente, .dark-mode .tamaños_fuentes, .dark-mode .estilos_fuentes, .dark-mode .pesos_fuentes {
+    color: black;
+}
+
+  .dark-mode .btn-mode{
+    background-color: #1e1e1e;
+    border:1px solid white;
+    color:rgb(0, 0, 0);
+  }
+
+  .dark-mode #icono_fa{
+    color: black;
+    }
+
+  @media  (max-width:768px){
+      
+    .dark-mode #icono_fa{
+      color: black;
+      }
+
+
+   .dark-mode .section-color-Verde{
+  background-color: rgb(20, 124, 10);
+ 
+}
+
+.dark-mode .article-color-Morado{
+  background-color:blueviolet;
+  color: white;
+}
+   
+    .dark-mode #descargar_framework:hover{
+        color: rgb(18, 168, 4);
+      }
+
+    .container-btn-mode{
+        position: absolute;
+        top:10px;
+        right: 40%;
+        cursor: pointer;
+        z-index: 3;
+        font-size:3;
+      }
+      .btn-mode{
+        display: inline-block;
+        width: 50px;
+        height: 30px;
+        border:2px solid rgb(0, 0, 0);
+        transition: background-color .5s;
+      }
+
+      .dark-mode .menu li:hover{
+  
+        background-color: rgb(88, 88, 88);
+       
+    
+      }
+
+      .dark-mode .menu{
+        background-color: #1e1e1e;
+      }
+     
+      .dark-mode .menu li a{
+        color: rgb(255, 255, 255);
+      }
+
+      .btn-mode i {
+        display: block;
+        font-size: 17px;
+        text-align: center;
+        line-height: 30px;
+      }
+    
+      .btn-mode.sun{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-right: 1px solid transparent;
+      }
+    
+      .btn-mode.moon{
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+      }
+
+
+
+
+  }

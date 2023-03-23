@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html id="Mockup" lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width-device-width, user-scalable=no, 
+      initial-scale=1, maximum-scale=1, minimum-scale=1">
+      <link href="Css/principal-style.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet"> 
+      <script src="http://code.jquery.com/jquery-1.9.0rc1.js"></script>
+      <script src="http://code.jquery.com/jquery-migrate-1.0.0rc1.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <link rel="stylesheet" href="Css/modoOscuroClaro.css">
+      <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    </head>
+    <body>
+
+      <div class="container-btn-mode">
+        <div id="id-sun" class="btn-mode sun active">
+           <i class="fas fa-sun"></i>
+        </div>
+        <div id="id-moon" class="btn-mode moon">
+           <i class="fas fa-moon"></i>
+        </div>
+     </div>
+
+        <header class="nav_header">
+          <input type="checkbox" id="btn-menu">
+          <label for="btn-menu"><img src="images/menu.png" alt="" width="30" height="30"></label>
+          <nav class="menu">
+            <ul>
+              <li><a id="inicio" href="Principal.html">Inicio</a></li>
+              <li><a href="componentes.html">Componentes</a></li>
+             
+              <li><a href="contenedores.html">Contenedores</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+          </nav>
+          <li><a class="descargar_framework" id="descargar_framework" href="">Descarga Hermes</a></li>
+        </header>
+      
+        <div class="fondo_top_top">
+          <img src="images/fondo_completo_top.png" alt="">
+         
+        </div>
+     
+        <div class="menuIzq">
+          <div class="Perfil">
+          
+          </div>
+          
+        </div>
+        <main>
+          <div class="slide">
+            <div class="slide-inner">
+              <input class="slide-open" type="radio" id="slide-1" 
+                    name="slide" aria-hidden="true" hidden="" checked="checked">
+              <div class="slide-item">
+                <img src="images/Hermes.png">
+              </div>
+              <input class="slide-open" type="radio" id="slide-2" 
+                    name="slide" aria-hidden="true" hidden="">
+              <div class="slide-item">
+                <img src="https://astelus.com/wp-content/viajes/Lago-Moraine-Parque-Nacional-Banff-Alberta-Canada.jpg">
+              </div>
+              <input class="slide-open" type="radio" id="slide-3" 
+                    name="slide" aria-hidden="true" hidden="">
+              <div class="slide-item">
+                <img src="https://astelus.com/wp-content/viajes/el-florido-jardin-publico-de-boston-massachusetts.jpg">
+              </div>
+              <label for="slide-3" class="slide-control prev control-1">‹</label>
+              <label for="slide-2" class="slide-control next control-1">›</label>
+              <label for="slide-1" class="slide-control prev control-2">‹</label>
+              <label for="slide-3" class="slide-control next control-2">›</label>
+              <label for="slide-2" class="slide-control prev control-3">‹</label>
+              <label for="slide-1" class="slide-control next control-3">›</label>
+              <ol class="slide-indicador">
+                <li>
+                  <label for="slide-1" class="slide-circulo">•</label>
+                </li>
+                <li>
+                  <label for="slide-2" class="slide-circulo">•</label>
+                </li>
+                <li>
+                  <label for="slide-3" class="slide-circulo">•</label>
+                </li>
+              </ol>
+            </div>
+          </div>
+          <h1 class="bienvenido"> 
+              ¡BIENVENIDO!  </h1>
+           
+              <h2 class="subtitulo_pagina">Puedes encontrar en esta pagina:</h2>
+              <section class="seccion1">
+              <div>
+                <img src="images/contenedores.png" alt=""> <p class="tilulo"><a href="contenedores.html">Contenedores para la pagina Web</a> </p>
+              </div>
+              <div> <img src="images/componentes.png" alt=""> <p class="tilulo"><a href="componentes.html">Componentes para la pagina Web</a></p>
+              </div>
+              <div> <img src="images/contactos.png" alt=""> <p class="tilulo"><a href="contacto.html">Contactos para la pagina Web</a></p> 
+              
+              </div>
+
+              <div> <img src="images/descarga-en-la-nube.png" alt=""> <p class="tilulo">Descarga Hermes</p>
+              </div>
+
+            </section>
+        </main>
+        <div class="subiralcielo"><img  class="visible" id="subirparaarriba" src="images/flecha-hacia-arriba.png" alt=""></div>
+         
+        <footer>
+          <div>
+            <nav class="footer_nav">
+              <ul>
+                <li>
+                  <a  href="https://www.instagram.com/"><img  src="images/instagram.png" alt="" > </a>
+                </li>
+                <li> 
+                  <a  href="https://www.youtube.com/"><img  src="images/youtube.png" alt="" > </a>
+                </li>
+                <li> 
+                  <a href="https://www.whatsapp.com/"><img src="images/whatsapp.png" alt="" > </a>
+                </li>
+                <li> 
+                  <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="" > </a>
+                </li>
+                <li> 
+                  <a href="https://github.com/"><img src="images/github.png" alt="" > </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </footer>
+
+        <script src="scripts/modoOscuroClaro.js"></script>
+        <script src="scripts/abrir.js"></script>
+       <script src="scripts/contacto.js"></script>
+    </body>
+</html>
